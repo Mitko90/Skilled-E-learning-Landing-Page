@@ -163,7 +163,6 @@ body{
     align-items: start;
     gap: 2rem;
     position: relative;
-    place-self: center;
 }
 
 .card-title{
@@ -253,7 +252,6 @@ h1{
 /* Grid Section */
 
 .grid{
-  /* background-image: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%); */
   display: grid;
   gap: 3.5rem 2rem;
   grid-template-columns: repeat(3, 1fr);
